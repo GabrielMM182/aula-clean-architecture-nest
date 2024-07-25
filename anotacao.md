@@ -36,3 +36,8 @@ Domain Events (Eventos de Domínio): Capturam mudanças no estado do domínio e 
 Aggregate Roots (Raízes de Agregado): Coordenam as entidades e eventos de domínio, garantindo consistência.
 
 - na maioria dos casos vamos precisar realizar um extends/heranca quando ofr declarar alguma entite em domain se relacioanndo com core
+
+-> Entities / repositories / use-case / spec.ts
+
+repositories (Vamos criar todos os metodos disponiveis para os testes e para criacao da api)
+
