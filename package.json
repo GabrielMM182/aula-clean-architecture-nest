@@ -1,0 +1,21 @@
+{
+  "name": "desafio-desenvolvedor-junior-3",
+  "version": "1.0.0",
+  "description": "![SoftMakers](https://vagas.softmakers.com.br/assets/img/logotipo14xxhdpi.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.12",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "ts-jest": "^29.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
