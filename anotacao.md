@@ -14,3 +14,7 @@ npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslin
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
 - de inicio vamos precisar criar a entidade mais basicas dentro da pasta core (ID por exemplo) core/entity-uuid + entity.ts
+
+- apos isso vamos criar uma pasta shared que vai servir como toda padronizacao dos objetos dentro da classe, nesse caso vamos criar uma padronizacao para o tipo email e ir usando ao longo do codigo
+
+- Criacao da nossa primeira entidade na qual vai ser feito todo o get,set e create referente ao login e criacao de conta
