@@ -41,3 +41,6 @@ Aggregate Roots (Raízes de Agregado): Coordenam as entidades e eventos de domí
 
 repositories (Vamos criar todos os metodos disponiveis para os testes e para criacao da api)
 
+vamos realizar a criacao do service que vai ficar encarregado de realiazar o token para login e tambem criptografar a sanha
+
+- tambem vmaos criar uma pasta chamada test/ na qual vmaos utilizar esse service para montar toda estrutura de teste para a nossa api, ela vai funcionar como teste em memoria
