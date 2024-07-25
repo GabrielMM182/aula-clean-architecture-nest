@@ -1,9 +1,10 @@
 import Entity from '../../../core/entities/entity'
 import EntityUUID from '../../../core/entities/entity-uuid'
+import Email from '../../shared/email'
 
 export interface UserType {
     name: string
-    email: string
+    email: Email
     password: string
 }
 
@@ -24,7 +25,7 @@ export class User extends Entity<UserType> {
 		this.attributes.name = name
 	}
 
-	set email(email: string) {
+	set email(email: Email) {
 		this.attributes.email = email
 	}
 
