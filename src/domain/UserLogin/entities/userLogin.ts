@@ -8,7 +8,7 @@ export interface UserType {
     password: string
 }
 
-export class User extends Entity<UserType> {
+export class UserLogin extends Entity<UserType> {
 	get name() {
 		return this.attributes.name
 	}
@@ -34,6 +34,6 @@ export class User extends Entity<UserType> {
 	}
 
 	static create(data: UserType, id?: EntityUUID) {
-		return new User(data, id)
+		return new UserLogin(data, id)
 	}
 }
