@@ -43,4 +43,8 @@ repositories (Vamos criar todos os metodos disponiveis para os testes e para cri
 
 vamos realizar a criacao do service que vai ficar encarregado de realiazar o token para login e tambem criptografar a sanha
 
-- tambem vmaos criar uma pasta chamada test/ na qual vmaos utilizar esse service para montar toda estrutura de teste para a nossa api, ela vai funcionar como teste em memoria
+- tambem vmaos criar uma pasta chamada test/ na qual vmaos utilizar esse service para montar toda estrutura de teste para a nossa api, ela vai funcionar como teste em memoria realizando todo o crud necessario ou outras implementacoes 
+
+- Utilizar EITHER para validacao de erros, no qual vai ser construida dentro de core, basenado em left como se for algum eror e right para prosseguir com o return 
+
+baseError -> either.ts -> either.spec -> definir erros especificos
